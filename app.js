@@ -7,8 +7,9 @@ const http = require('http');
 const connection = new Mysql({
     host: 'localhost',
     user: 'root',
-    password: '2001',
-    database: 'ElectricBank'
+    password: 'root',
+    database: 'ElectricBank',
+    charset: 'utf8mb4'
 });
 
 function handlePostRequest(request, response) {

@@ -1,6 +1,6 @@
 -- Creation of a test base...
 
-CCREATE DATABASE ElectricBank;
+CREATE DATABASE ElectricBank;
 USE ElectricBank;
 
 CREATE TABLE Borrowers (
